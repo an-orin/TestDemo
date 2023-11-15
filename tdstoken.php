@@ -12,8 +12,8 @@ $trang = "\033[1;37m";
 /***[ USERAGENT ]***/
 $_SESSION['useragent'] = 'Mozilla/5.0 (Linux; Android 10; CPH1819) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36';
 /***[ Đánh Dấu Bản Quyền ]***/
-$dp_tool = $do."[".$trang ."=.=".$do."] ".$trang."=>";
-$thanh_dep= $do."[".$trang ."=.=".$do."] ".$trang."=>";
+$dp_tool = $do."[".$trang ."=.=".$do."] ".$trang."=> ";
+$thanh_dep= $do."[".$trang ."=.=".$do."] ".$trang."=> ";
 /***[ Delay ]***/
 if (strtoupper(substr(PHP_OS, 0, 3)) === 'LIN') {
 	$_SESSION['load'] = 1500;
